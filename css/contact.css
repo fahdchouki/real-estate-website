@@ -1,0 +1,78 @@
+
+.cc{
+    margin: 100px auto;
+    background: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.cc span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cc i{
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+/* form */
+.frm{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    box-shadow: 2px 4px 20px 0px rgba(0,0,0,.8);
+    padding: 10px;
+}
+.frm h2{
+    color: rgba(0,112,255,1);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.frm input , textarea{
+    border: 2px solid rgba(0,112,255,1);
+    border-radius: 20px;
+    width: 90%;
+    height: 40px;
+    margin: 5px 0;
+    padding: 15px;
+    outline: none;
+}
+textarea{
+    height: 100px;
+}
+.send , .cancel{
+    border-radius: 10px;
+    outline: none;
+    width: 100px;
+    padding: 10px 20px;
+    border: 2px solid  rgba(0,112,255,1);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .5s;
+}
+.send{
+    background-color: rgba(0,112,255,1);
+    color: #fff;
+}
+.cancel{
+    background-color: rgb(79, 161, 255);
+    color: #fff;
+}
+.send:hover{
+    background-color: rgba(0, 110, 255, 0.7);
+}
+.cancel:hover{
+    background-color: rgba(0, 110, 255, 0.7);
+}
+/* footer */
+.info-ft {
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}

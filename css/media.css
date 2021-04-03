@@ -1,0 +1,127 @@
+@media (max-width: 1140px) {
+  .home-img,
+  .first::before {
+    display: none;
+  }
+  .content {
+    margin: auto;
+  }
+}
+@media (max-width: 810px) {
+  .navbar {
+    position: relative;
+  }
+  .nav {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    background: #fff;
+    width: 300px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .nav li {
+    display: block;
+  }
+  label {
+    display: block;
+    transition: all 0.5s;
+  }
+  .bars {
+    display: block;
+    font-size: 30px;
+    padding: 9px;
+    cursor: pointer;
+    font-weight: 10;
+  }
+  #ch:checked ~ .nav {
+    right: 0;
+  }
+  #ch:checked ~ label {
+    transform: rotate(90deg);
+  }
+  .logo {
+    font-size: 1.5rem;
+    padding: 10px 0px;
+  }
+  .navbar {
+    padding: 10px;
+  }
+  .section-title h2 {
+    font-size: 2rem;
+  }
+  .section-title > span {
+    width: 70px;
+    height: 3px;
+    margin: 10px auto 70px;
+  }
+  .section-title > span > span {
+    width: 30px;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  .det {
+    display: block;
+  }
+  .desc {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .map {
+    width: 100%;
+  }
+  .cc {
+    display: block;
+  }
+  .ct-frm {
+    width: 100%;
+  }
+  .container {
+    width: 95%;
+  }
+}
+@media (max-width: 700px) {
+  .items {
+    display: block;
+  }
+  .item {
+    width: 80%;
+    margin: 6px auto;
+  }
+  .h-content {
+    height: 800px;
+  }
+  .h-prop {
+    display: block;
+  }
+  .h-prop div {
+    padding: 0;
+  }
+  .content .title {
+    font-size: 2.5rem;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
+  .frm #mail {
+    width: 150px;
+  }
+  .frm .gotit {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+    border-radius: 30%;
+    margin-top: 10px;
+  }
+  .foot1 {
+    display: block;
+  }
+  .ff,
+  .sf {
+    width: 100%;
+  }
+  .slider-show {
+    width: 100%;
+  }
+}
